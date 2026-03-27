@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #ffffff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(2.png) no-repeat  center/cover;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.selected-book {
+    color: #000000;
+    background-color: #ffffff77;
+    backdrop-filter: blur(2px);
+    padding: 50px;
+    text-align: left;
+    max-width: 600px;
+    margin: auto ;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+
+h3,p{
+    display: inline;
+    margin: 0;
+}
+
+
+.related-books {
+
+    color: #000000;
+    background-color: #ffffff77;
+    backdrop-filter: blur(2px);
+    padding: 50px;
+    text-align: left;
+    max-width: 600px;
+    margin-top: 50px ;
+    margin-left: 280px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+    
+}
+.related-books img{
+  border-radius: 10px;
+}
+.related-books img:hover {
+  transform: scale(1.1);
+ 
+}
+
+.button {
+    border-radius: 0%;
+    background-color: #44576d;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .button:hover{
+    background: rgb(87, 22, 22);
+  }
+  .button1:hover{
+    background: rgb(87, 22, 22);
+  }
+.button1 {
+    border-color: #000000;
+    color: white;
+    background: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px  ;
+    margin-bottom: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.button1 a{
+     color: white;
+    text-decoration:none; 
+}
+.button a{
+    color: white;
+   text-decoration:none; 
+}
+header
+{
+  width:100%;
+  background:#3f3e3e5e;
+  backdrop-filter: blur(2px);
+  color:#FFFFFF;
+  padding:20px;
+  text-align:center;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+nav{
+  padding: 10px;
+  text-align: right;
+}
+nav a
+{
+color: white;
+text-decoration:none; 
+margin: 10px; 
+font-size: 16px;
+}
+
+header img
+{
+  width:100px;
+  height:auto;
+}
+
+header h1
+{
+  font-size:35px;
+  margin:10px;
+}
+
+header p
+{
+  font-size:16px;
+}
+
+footer {
+     
+    max-width:100%;
+    background:#3f3e3e5e;
+    backdrop-filter: blur(2px);
+    color:#ffffff;
+    text-align:center;
+    margin-top:100px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  footer p {
+    margin: 5px;
+  }
+
+  .alpha a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .alpha a:hover {
+    color: #000000;
+  }
+ 
+   #button{
+    text-align: center;
+}

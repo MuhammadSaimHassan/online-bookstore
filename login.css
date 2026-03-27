@@ -1,0 +1,133 @@
+
+    body 
+    {
+      margin:0;
+      background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(2.png) no-repeat  center/cover;
+      align-items: center;
+      color:#f7f7f7;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      font-family: 'Times New Roman', Times, serif;
+     
+    }
+   
+
+    header{
+      width:100%;
+      background:#3f3e3e5e;
+      backdrop-filter: blur(2px);
+      color:#FFFFFF;
+      padding:20px;
+      text-align:center;
+      font-style:italic;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    nav{
+      padding: 2px;
+      text-align: right;
+    }
+   nav a
+    {
+    color: white;
+    text-decoration:none; 
+    margin: 10px; 
+    font-size: 16px;
+  }
+    header img 
+    {
+      width:80px;
+      height:auto;
+     
+    }
+   
+    header h1
+     {
+      font-size:28px;
+      margin:10px;
+      text-align:center;
+    }
+
+    .form 
+    {
+      background:rgba(255, 255, 255, 0.1);
+       backdrop-filter: blur(2px);
+      border-radius:15px;
+      padding:30px;
+      width:300px;
+      font-weight:bold;
+      margin-top:100px;
+     
+      align-items:center;
+    }
+
+    .form h2{
+      color:#fefdfd;
+      margin-bottom:20px;
+      font-size:24px;
+      text-align:center;
+    }
+
+    .form input 
+    {
+      width:100%;
+      padding:10px;
+      border:none;
+      border-radius:5px;
+      margin-bottom:20px;
+      font-size:15px;
+    }
+
+    .form button
+    {
+      background:#414e348e;
+      color:#fff;
+      padding:10px;
+      border:none;
+      border-radius:5px;
+      font-size:15px;
+      cursor:pointer;
+    }
+
+    .form button:hover 
+    {
+      background:#12100e;
+    }
+
+    .form a 
+    {
+      display:block;
+      color:#f3f3f2;
+      text-decoration:none;
+      margin-top:10px;
+      text-align:center;
+      font-weight:normal;
+    }
+
+    footer {
+     
+      width:100%;
+      background:#3f3e3e5e;
+      backdrop-filter: blur(2px);
+      color:#ffffff;
+      text-align:center;
+      margin-top:100px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    footer p {
+      margin: 5px;
+    }
+
+    .alpha a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    .alpha a:hover {
+      color: #000000;
+    }
+     #button{
+      text-align: center;
+     }
+    
